@@ -1,0 +1,64 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+span.4color
+{
+	color:#FFFFFF;
+}
+
+.brand
+{
+	color:#92CD00;
+}
+
+i.nodes, i.about
+{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-top: 1px;
+	line-height: 32px;
+	vertical-align: text-bottom;
+	
+	background-repeat: no-repeat;
+}
+
+i.nodes
+{
+	background-image: url("../img/nodes_white.png");
+}
+
+i.about
+{
+	background-image: url("../img/about_white.png");	
+}
+
+div.starred
+{
+	width:100%;
+	height: auto;
+	padding: 10px;
+	background: #92CD00;
+	-webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
