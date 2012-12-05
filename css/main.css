@@ -38,20 +38,95 @@ i.about
 
 div.starred
 {
-	width:100%;
+	width:90%;
 	height: auto;
-	padding: 10px;
 	background: #92CD00;
-	-webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+	padding-top: 1em;
     color:white;
 }
 
+div.item
+{
+	position: relative;
+}
 
+div.item-header
+{
+	background: #1d1d1d;
+	margin-left:-0.5em;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 10% ;
+	margin-bottom: 1em;
+	width:auto ;
 
+	display: inline-block;
+}
 
+span.item-title
+{
+	font-family: "Oswald",Helvetica;
+	font-size: 1.2em;
+}
 
+span.item-author
+{
+	font-size:0.80em;
+}
+
+.justify
+{
+	text-align: justify;
+}
+
+div.item-body
+{
+	margin-top:1em;
+	padding: 0.5em;	
+	color: white;
+}
+
+div.item-pitch
+{
+	margin-top:1em;
+	padding: 0.5em;
+	background:#CFF07F;
+	color: #1d1d1d;
+}
+
+div.item-upvotes
+{
+	position: absolute;
+	color: white;
+	right: 2%;
+	top:1%;
+}
+
+div.item-upvotes span
+{
+	font-size: 160%;
+	font-weight:bold ;
+}
+
+/*MINI PARTS*/
+
+@media (max-width: 300px) {
+	div.item-upvotes span
+	{
+		font-size: 100%;
+	}
+
+	div.item-pitch
+	{
+		font-size: 80%;
+	}
+
+	div.item-upvotes
+	{
+		right: 3%;
+	}
+}
 
 
 
